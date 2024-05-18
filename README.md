@@ -6,7 +6,6 @@
 1. Используя Dockerfile:
 Сначала команда
 ```docker build -t computerclub . ```
-
 Затем ```docker run computerclub```
 2. Можно просто запустить тесты, используя команду 
 ```go test -v ./computerclub/...```
@@ -14,5 +13,4 @@
 где ```file_name```-файл с входными данными
 4. Cначала собрать приложение:
 ```go build computerclub/main.go```
-
 Затем запустить ```./main <filename>```
